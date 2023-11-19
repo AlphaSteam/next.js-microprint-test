@@ -3,8 +3,6 @@
 name: Daily Next.js integration test with turbopack
 
 on:
-  schedule:
-    - cron: '0 8 * * *'
   workflow_dispatch:
     inputs:
       version:

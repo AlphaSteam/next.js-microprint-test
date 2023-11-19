@@ -1,9 +1,6 @@
 name: test-e2e-deploy
 
 on:
-  schedule:
-    # run every day at midnight
-    - cron: '0 0 * * *'
   # allow triggering manually as well
   workflow_dispatch:
 

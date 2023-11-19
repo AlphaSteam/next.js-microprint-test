@@ -89,6 +89,10 @@ jobs:
               uses: AlphaSteam/GHuPrintGen@v5
               with:
                   job_name: build
+                  log_path: ./log_microprints
+                  microprint_path: ./log_microprints
+                  microprint_config_path: ./log_microprints
+                  microprint_visualizer_link_path: ./log_microprints
 
             - name: Commit microprint
               uses: stefanzweifel/git-auto-commit-action@v5

@@ -1,1 +1,0 @@
-[Look at microprint with Microprint visualizer](https://alphasteam.github.io/uPrintVis/?url=https://api.github.com/repos/AlphaSteam/next.js-microprint-test/contents/microprint(1).svg&ref=refs/heads/canary)

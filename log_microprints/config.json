@@ -6,15 +6,21 @@
         "background_color": "rgb(30, 30, 30)",
         "text_color": "white"
     },
-    "line_rules": {
-        "(?:^|\\W)FAIL(?:$|\\W)": {
+    "line_rules": [
+        {
+            "includes": [
+                "(?:^|\\W)FAILED(?:$|\\W)(?!code)"
+            ],
             "text_color": "white",
             "background_color": "red"
         },
-        "(?:^|\\W)warning(?:$|\\W)": {
+        {
+            "includes": [
+                "(?:^|\\W)warning(?:$|\\W)"
+            ],
             "text_color": "black",
-            "background_color": "yellow"
+            "background_color": "#dfdf07"
         }
-    },
+    ],
     "font-family": "monospace, monospace"
 }
